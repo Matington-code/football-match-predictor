@@ -26,3 +26,12 @@ Brentford win: 23.0%
 Draw: 23.3%
 
 Arsenal win: 53.7%
+
+## Results:
+
+Model trained on 2021/22 – 2024/25 seasons and tested on 2025/26 (held-out data the model never saw):
+
+- Accuracy: 45.3%
+- Brier score: 0.625 vs baseline 0.642
+
+Better than the baseline by 2.7%. Accuracy is in line with the theoretical ceiling for football prediction (~50-55%), given the high unpredictability of the sport.
